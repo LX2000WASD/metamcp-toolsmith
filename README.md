@@ -28,6 +28,8 @@ Toolsmith 是一个**本地 MCP Server**：你可以让 AI 通过工具调用来
 前置要求：Docker（含 `docker compose`）。
 
 ```bash
+git clone https://github.com/LX2000WASD/metamcp-toolsmith.git
+cd metamcp-toolsmith
 cp example.env .env
 docker compose up -d --build
 ```
