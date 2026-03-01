@@ -59,7 +59,9 @@ npm start
 
 ### 方案 A：SSE（推荐）
 
-> MetaMCP 在 Docker 里运行时，通常用 `host.docker.internal` 访问宿主机服务。
+> 地址提示：
+> - 如果 MetaMCP 跑在 Docker 里：通常用 `host.docker.internal` 访问宿主机上的 Toolsmith
+> - 如果 MetaMCP 直接跑在宿主机：把 URL 改成 `http://127.0.0.1:7071/...`
 
 ```json
 {
