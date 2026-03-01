@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "toolsmith": {
+      "type": "sse",
+      "url": "http://host.docker.internal:7071/sse",
+      "bearerToken": "YOUR_TOOLSMITH_BEARER_TOKEN",
+      "description": "Toolsmith MCP Server (SSE)"
+    }
+  }
+}
+

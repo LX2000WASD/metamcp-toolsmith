@@ -1,0 +1,11 @@
+node_modules/
+dist/
+
+.env
+.env.local
+
+.DS_Store
+
+# Toolsmith generated tools (recommend mounting this directory)
+toolsmith-tools/
+

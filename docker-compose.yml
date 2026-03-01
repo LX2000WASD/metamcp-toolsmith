@@ -1,0 +1,16 @@
+services:
+  toolsmith:
+    container_name: toolsmith-mcp-server
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: toolsmith-mcp-server:local
+    env_file:
+      - .env
+    ports:
+      - "7071:7071"
+    volumes:
+      # Persist toolsmith-generated tools on host
+      - ./toolsmith-tools:/data/tools
+    restart: unless-stopped
+
