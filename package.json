@@ -1,6 +1,6 @@
 {
   "name": "toolsmith-mcp-server",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Toolsmith MCP Server: build local MCP tools via chat; expose SSE + Streamable HTTP transports for easy MetaMCP integration.",
   "license": "MIT",
   "type": "module",
@@ -13,7 +13,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "1.16.0",
+    "@modelcontextprotocol/sdk": "1.27.1",
     "express": "^5.2.1"
   },
   "devDependencies": {
@@ -28,4 +28,3 @@
     "node": ">=18"
   }
 }
-

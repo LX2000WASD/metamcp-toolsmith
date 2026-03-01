@@ -1,11 +1,16 @@
 {
   "mcpServers": {
-    "toolsmith": {
+    "toolsmith_admin": {
       "type": "streamable_http",
-      "url": "http://host.docker.internal:7071/mcp",
+      "url": "http://host.docker.internal:7071/admin/mcp",
       "bearerToken": "YOUR_TOOLSMITH_BEARER_TOKEN",
-      "description": "Toolsmith MCP Server (Streamable HTTP)"
+      "description": "Toolsmith MCP Server - Admin (Streamable HTTP)"
+    },
+    "toolsmith_tools": {
+      "type": "streamable_http",
+      "url": "http://host.docker.internal:7071/tools/mcp",
+      "bearerToken": "YOUR_TOOLSMITH_BEARER_TOKEN",
+      "description": "Toolsmith MCP Server - Tools (Streamable HTTP)"
     }
   }
 }
-

@@ -7,3 +7,4 @@
 - `../metamcp-import-sse.json`
 - `../metamcp-import-streamable-http.json`
 
+> 提示：两个 JSON 都会一次性导入 `toolsmith_admin` 与 `toolsmith_tools`。
